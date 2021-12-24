@@ -217,8 +217,13 @@ li {
 /*--------------------------------
  メインビジュアル
 ---------------------------------*/
+.logo{
+  max-width: 30%;
+	
+
+}
 body {
-  background-color: rgb(127, 129, 255);
+  background-color: rgb(224, 224, 255);
 }
 
 .main-visual {
@@ -250,16 +255,16 @@ body {
 @keyframes flowing-anim {
   0% {
     width: 0%;
-    color: rgb(127, 129, 255);
+    color: rgb(255, 255, 255);
   }
 
   15% {
-    color: rgb(127, 129, 255)
+    color: rgb(151, 152, 255)
   }
 
   100% {
     width: 100%;
-    color: #ff9c4b;
+    color: #a400e6;
   }
 }
 
